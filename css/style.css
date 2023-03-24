@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e9e7e7;
+  font-family: "Lato";
+}
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+/* header */
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.header__nav{
+  width: 459px;
+}
+
+.hedaer__nav__ul, .header__contact__button{
+  font-size: 21px;
+  letter-spacing: -1px;
+  font-weight: 900;
+  font-family: "Lato";
+}
+
+.hedaer__nav__ul{
+  list-style-type: none;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  text-align: left;
+  height: 16px;
+}
+.header__nav__element{
+  transition: .3s;
+  color: #8f8f8f;
+  cursor: pointer;
+}
+.header__nav__element:hover{
+  color: #232323;
+}
+
+.header__contact__button{
+  color: #8f8f8f;
+  padding: 5px 60px;
+  cursor: pointer;
+  transition: .3s;
+  border-radius: 5px;
+  border: 3px solid #232323;
+}
+
+.header__contact__button:hover{
+  color: #232323;
+}
+
+/* main */
+.main{
+  margin-top: 100px;
+}
+
+.main__section-grou1{
+  max-height: 410px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__section-grou1__text-block{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main__section-grou1__text-block__title{
+  font-size: 81px;
+  letter-spacing: -2px;
+  line-height: 81px;
+  color: #232323;
+  font-weight: 700;
+  font-family: "Cardo";
+}
+
+.main__section-grou1__text-block__paragraph{
+  margin: 30px 0 0 0;
+  height: 146px;
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: #232323;
+  font-weight: 400;
+  font-family: "Lato";
+  text-align: left;
+}
+.main__section-grou1__text-block__button{
+  font-size: 21px;
+  letter-spacing: -1px;
+  color: #e9e7e7;
+  font-weight: 900;
+  font-family: "Lato";
+  text-align: center;
+  padding: 10px 50px;
+  width: 256px;
+  height: 54px;
+  border-radius: 5px;
+  background-color: #232323;
+}
+
+.main__section-grou1__image{
+  min-height: 100%
+}
